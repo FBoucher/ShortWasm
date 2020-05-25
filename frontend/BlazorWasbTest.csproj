@@ -13,4 +13,11 @@
     <PackageReference Include="System.Net.Http.Json" Version="3.2.0-preview5.20210.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="routes.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToPublishDirectory>Always</CopyToPublishDirectory>
+    </None>
+  </ItemGroup
+
 </Project>
