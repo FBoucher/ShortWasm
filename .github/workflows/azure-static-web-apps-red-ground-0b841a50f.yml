@@ -22,10 +22,10 @@ jobs:
         dotnet-version: 3.1.201
 
     - name: Build with dotnet
-      run: dotnet build --configuration Release
+      run: dotnet build frontend --configuration Release
 
     - name: Publish with dotnet
-      run: dotnet publish --configuration release 
+      run: dotnet publish frontend --configuration release 
 
     - name: Publish artifacts
       uses: actions/upload-artifact@master
